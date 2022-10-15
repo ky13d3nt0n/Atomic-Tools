@@ -1,0 +1,68 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Pages: Layouts
+ *
+ * ----------------------------------------------------------------------------- */
+
+@import '../styles/utilities/common.css';
+
+.exampleContainer {
+  margin-bottom: 80px;
+  border: 1px solid var( --color-primary );
+  background-color: color-mod( var( --color-primary ) a( 30% ) );
+}
+
+.exampleGridTitle {
+  margin: 0;
+  padding: 16px 0;
+  font-size: rem( 24px );
+  font-weight: 600;
+  line-height: lh( 24px, 32px );
+  text-align: center;
+}
+
+.exampleRow {
+  border: 1px solid var( --color-secondary );
+  background-color: color-mod( var( --color-secondary ) a( 30% ) );
+}
+
+.exampleCol {
+  border: 1px solid var( --color-white );
+  background-color: color-mod( var( --color-white ) a( 30% ) );
+}
+
+.exampleCol p {
+  margin-bottom: 0;
+  padding: 24px 0;
+  font-size: rem( 18px );
+  font-weight: 600;
+  line-height: lh( 18px, 22px );
+}
+
+.examplePre {
+  margin-top: 24px;
+}
+
+.colorKey {
+  margin-bottom: 60px;
+  padding: 24px 16px;
+  background-color: var( --color-neutral-light );
+}
+
+.bgRed {
+  padding: 4px 6px;
+  border: 1px solid var( --color-primary );
+  background-color: color-mod( var( --color-primary ) a( 30% ) );
+}
+
+.bgBlack {
+  padding: 4px 6px;
+  border: 1px solid var( --color-secondary );
+  background-color: color-mod( var( --color-secondary ) a( 30% ) );
+}
+
+.bgWhite {
+  padding: 4px 6px;
+  border: 1px solid var( --color-white );
+  background-color: color-mod( var( --color-white ) a( 80% ) );
+}

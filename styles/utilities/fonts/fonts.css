@@ -1,0 +1,66 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Utilities: Fonts
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Avenir
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: normal;
+  src: img( '/fonts/avenir/avenir-next-condensed.ttf' );
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: bold;
+  src: img( '/fonts/avenir/avenir-black.ttf' );
+  font-display: swap;
+}
+
+/* -----------------------------------------------------------------------------
+ * Object Sans
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'object-sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: img( '/fonts/object-sans/PPObjectSans-Regular.woff2' );
+}
+
+@font-face {
+  font-family: 'object-sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: img( '/fonts/object-sans/PPObjectSans-Medium.woff2' );
+}
+
+@font-face {
+  font-family: 'object-sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: img( '/fonts/object-sans/PPObjectSans-Bold.woff2' );
+}
+
+
+/* -----------------------------------------------------------------------------
+ * Bandwidth
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'bandwidth';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src: img( '/fonts/bandwidth/BandwidthDisplay_Rg.woff2' );
+}

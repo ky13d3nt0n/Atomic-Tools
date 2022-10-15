@@ -1,0 +1,41 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Components: Legal
+ *
+ * ----------------------------------------------------------------------------- */
+
+.site-legal {
+  &:empty {
+    display: none;
+  }
+
+  p {
+    display: none;
+  }
+
+  p.legal-text {
+    display: block;
+  }
+
+  p br {
+    display: none;
+  }
+}
+
+.legal-annotation {
+  color: inherit;
+  font-size: 60%;
+  vertical-align: super;
+}
+
+/* For larger font sizes, like hero+section headlines, annotation size needs to be smaller */
+.smaller .legal-annotation {
+  font-size: 40%;
+}
+
+.legal-text {
+  color: var( --color-black-rock );
+  font-size: rem( 10px );
+  font-weight: 100;
+  line-height: lh( 10px, 14px );
+}

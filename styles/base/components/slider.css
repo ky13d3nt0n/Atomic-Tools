@@ -1,0 +1,46 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Components: Sliders
+ *
+ * ----------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------------
+ * Swiper
+ * ----------------------------------------------------------------------------- */
+
+.swiper {
+  max-width: 100%;
+}
+
+/* .swiper-pagination .swiper-pagination-bullet {
+  border: 2px solid var( --color-primary );
+  opacity: unset;
+  background-color: transparent;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  border: none;
+  background-color: var( --color-primary );
+} */
+
+/* -----------------------------------------------------------------------------
+  * Slider
+  * ----------------------------------------------------------------------------- */
+
+.slider {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 60px;
+  background-color: var( --color-white );
+}
+
+.slide {
+  display: none;
+  margin: 0;
+  padding: 8px;
+}
+
+.slide:first-child {
+  display: block;
+}

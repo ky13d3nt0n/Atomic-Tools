@@ -1,0 +1,203 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Structures: Columns
+ *
+ * ----------------------------------------------------------------------------- */
+
+@value row, noGutters, reorder2Col from './Row.module.css';
+
+.col {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+
+.row > .col {
+  padding-right: var( --grid-gutter-half );
+  padding-left: var( --grid-gutter-half );
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier No Gutters
+ * ----------------------------------------------------------------------------- */
+
+.noGutters > .col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Reorder 2 Columns
+ * ----------------------------------------------------------------------------- */
+
+.reorder2Col > .col {
+  &:first-child {
+    order: 2;
+  }
+
+  &:last-child {
+    order: 1;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Vertical center content | NOTE: This is a safari fix too.
+ * ----------------------------------------------------------------------------- */
+
+.verticalCenter {
+  display: flex;
+  align-items: center;
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Horizontally center content
+ * ----------------------------------------------------------------------------- */
+
+.horizontalCenter {
+  display: flex;
+  justify-content: center;
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 50%.)
+ * ----------------------------------------------------------------------------- */
+
+.oneHalf {
+  @media (--medium) {
+    width: 50%;
+  }
+}
+
+.oneHalfLarge {
+  @media (--large) {
+    width: 50%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 33%.)
+ * ----------------------------------------------------------------------------- */
+
+.oneThird {
+  @media (--medium) {
+    width: 33.33%;
+  }
+}
+
+.oneThirdLarge {
+  @media (--large) {
+    width: 33.33%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 66%.)
+ * ----------------------------------------------------------------------------- */
+
+.twoThirds {
+  @media (--medium) {
+    width: 66.66%;
+  }
+}
+
+.twoThirdsLarge {
+  @media (--large) {
+    width: 66.66%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 25%.)
+ * ----------------------------------------------------------------------------- */
+
+.oneFourth {
+  @media (--medium) {
+    width: 25%;
+  }
+}
+
+.oneFourthLarge {
+  @media (--large) {
+    width: 25%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 75%.)
+ * ----------------------------------------------------------------------------- */
+
+.threeFourths {
+  @media (--medium) {
+    width: 75%;
+  }
+}
+
+.threeFourthsLarge {
+  @media (--large) {
+    width: 75%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 20%.)
+ * ----------------------------------------------------------------------------- */
+
+.oneFifth {
+  @media (--medium) {
+    width: 20%;
+  }
+}
+
+.oneFifthLarge {
+  @media (--large) {
+    width: 20%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 40%.)
+ * ----------------------------------------------------------------------------- */
+
+.twoFifths {
+  @media (--medium) {
+    width: 40%;
+  }
+}
+
+.twoFifthsLarge {
+  @media (--large) {
+    width: 40%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 60%.)
+ * ----------------------------------------------------------------------------- */
+
+.threeFifths {
+  @media (--medium) {
+    width: 60%;
+  }
+}
+
+.threeFifthsLarge {
+  @media (--large) {
+    width: 60%;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+ * Modifier: Column (Keeps column at a fixed width of 85%.)
+ * ----------------------------------------------------------------------------- */
+
+.fourFifths {
+  @media (--medium) {
+    width: 80%;
+  }
+}
+
+.fourFifthsLarge {
+  @media (--large) {
+    width: 80%;
+  }
+}
