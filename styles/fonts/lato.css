@@ -1,0 +1,105 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Fonts: Lato
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------------
+ * Thin
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: '/fonts/Lato/Lato-Thin.ttf';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: '/fonts/Lato/Lato-ThinItalic.ttf';
+  font-display: swap;
+}
+
+/* -----------------------------------------------------------------------------
+ * Light
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: '/fonts/Lato/Lato-Light.ttf';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: '/fonts/Lato/Lato-LightItalic.ttf';
+  font-display: swap;
+}
+
+/* -----------------------------------------------------------------------------
+ * Regular
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: '/fonts/Lato/Lato-Regular.ttf';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: '/fonts/Lato/Lato-Italic.ttf';
+  font-display: swap;
+}
+
+/* -----------------------------------------------------------------------------
+ * Bold
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  src: '/fonts/Lato/Lato-Bold.ttf';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 600;
+  src: '/fonts/Lato/Lato-BoldItalic.ttf';
+  font-display: swap;
+}
+
+/* -----------------------------------------------------------------------------
+ * Black
+ * ----------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: '/fonts/Lato/Lato-Black.ttf';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: '/fonts/Lato/Lato-BlackItalic.ttf';
+  font-display: swap;
+}

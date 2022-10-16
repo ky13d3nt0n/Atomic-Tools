@@ -1,0 +1,21 @@
+/* -----------------------------------------------------------------------------
+  *
+  * Core
+	*
+	* These are styles of the main website elements - body, input, button, ul, ol, etc.
+	* In this section, we use mainly HTML tags and attribute selectors, in exceptional cases - classes
+	* (for example, if you have JavaScript-style selections);
+  *
+  * ----------------------------------------------------------------------------- */
+
+html {
+  scroll-padding-top: 53px;
+}
+
+body {
+  background-color: var( --color-gunmetal );
+  color: var( --color-white );
+  font-family: var( --font-primary );
+  font-size: 16px;
+  line-height: 1.5;
+}

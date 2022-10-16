@@ -1,0 +1,44 @@
+/* -----------------------------------------------------------------------------
+ *
+ * List: Ordered
+ *
+ * ----------------------------------------------------------------------------- */
+
+/* @value ul from './UnorderedList.module.css'; */
+
+.list {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 32px;
+}
+
+/* .ol .ol,
+.ol .ul,
+.ul .ol {
+  margin-top: 8px;
+  margin-bottom: 0;
+} */
+
+/* .list-ordered {
+  ol&,
+  & > ol {
+    list-style: none;
+    counter-reset: li;
+
+    & > li,
+    & > ol > li {
+      position: relative;
+
+      &::before {
+        content: counter( li ) '.';
+        position: absolute;
+        right: 100%;
+        margin-right: 4px;
+        color: var( --primary-color );
+        text-align: right;
+        white-space: nowrap;
+        counter-increment: li;
+      }
+    }
+  }
+} */

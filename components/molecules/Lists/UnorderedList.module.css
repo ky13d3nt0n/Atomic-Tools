@@ -1,0 +1,48 @@
+/* -----------------------------------------------------------------------------
+ *
+ * List: Unordered
+ *
+ * ----------------------------------------------------------------------------- */
+
+@import '../../../styles/common.css';
+
+/* @value item from './ListItem.module.css'; */
+
+/* @value ol from './OrderedList.module.css'; */
+
+.ul {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 32px;
+}
+
+/* .ul .ul,
+.ol .ul,
+.ul .ol {
+  margin-top: 8px;
+  margin-bottom: 0;
+} */
+
+/* .list-unordered {
+  ul&,
+  & > ul {
+    list-style: none;
+
+    & > li,
+    & > ul > li {
+      position: relative;
+
+      &::before {
+        @mixin icomoon;
+
+        content: var( --icon-checkmark1 );
+        position: absolute;
+        right: 100%;
+        margin-right: 4px;
+        color: var( --color-primary );
+        font-size: rem( 12px );
+        line-height: 2;
+      }
+    }
+  }
+} */

@@ -1,32 +1,42 @@
 /**
  * @module Home
- * @description Home Page
+ * @description
  */
 import Head from 'next/head';
-import Container from '@atoms/Layouts/Container';
+import LandingTemplate from '@templates/Landing';
+import Hero from '@organisms/Hero';
+import HeroSplit from '@organisms/Hero/HeroSplit';
 
 /**
- * @function Page
- * @description Page
+ * @function Home
+ * @description Home
  */
-const Page = () => (
+const Home = () => (
   <>
     <Head>
       <title>Home | Atomic Tools</title>
     </Head>
 
-    <Container>
-      <h1>Container</h1>
-    </Container>
-
-    <Container weightedRight>
-      <h1>Container</h1>
-    </Container>
-
-    <Container weightedLeft>
-      <h1>Container</h1>
-    </Container>
+    <LandingTemplate
+      hero={
+        <>
+          <Hero/>
+          <HeroSplit />
+          <HeroSplit reverseLayout background="hero-2.jpg" />
+        </>
+      }
+      main={
+        <>
+          Main
+        </>
+      }
+      aside={
+        <>
+          Aside
+        </>
+      }
+    />
   </>
 );
 
-export default Page;
+export default Home;

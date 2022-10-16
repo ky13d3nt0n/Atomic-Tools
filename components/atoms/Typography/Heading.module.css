@@ -1,0 +1,75 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Typography: Heading
+ *
+ * ----------------------------------------------------------------------------- */
+
+@import '../../../styles/common.css';
+
+.heading {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.heading a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading small {
+  line-height: 1;
+}
+
+/* -----------------------------------------------------------------------------
+ * H1
+ * ----------------------------------------------------------------------------- */
+
+.h1,
+.appearH1 {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  font-family: var( --font-bandwidth );
+  font-size: var( --h1-font-size );
+  font-weight: 400;
+  line-height: var( --h1-line-height );
+}
+
+.h2,
+.appearH2 {
+  margin-bottom: 20px;
+  padding-top: 16px;
+  font-size: var( --h2-font-size );
+  line-height: var( --h2-line-height );
+}
+
+.h3,
+.appearH3 {
+  margin-bottom: 16px;
+  padding-top: 16px;
+  font-size: var( --h3-font-size );
+  line-height: var( --h3-line-height );
+}
+
+.h4,
+.appearH4 {
+  margin-bottom: 16px;
+  padding-top: 8px;
+  font-size: var( --h4-font-size );
+  line-height: var( --h4-line-height );
+}
+
+.h5,
+.appearH5 {
+  margin-bottom: 12px;
+  padding-top: 8px;
+  font-size: var( --h5-font-size );
+  line-height: var( --h5-line-height );
+}
+
+.h6,
+.appearH6 {
+  margin-bottom: 12px;
+  padding-top: 8px;
+  font-size: var( --h6-font-size );
+  line-height: var( --h6-line-height );
+}

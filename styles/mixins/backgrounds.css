@@ -1,0 +1,17 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Mixins: Backgrounds
+ *
+ * ----------------------------------------------------------------------------- */
+
+@define-mixin background {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  @media (--medium) {
+    display: block;
+    width: 50vw;
+  }
+}

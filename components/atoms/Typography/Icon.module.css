@@ -1,0 +1,15 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Typography: Icon
+ *
+ * ----------------------------------------------------------------------------- */
+
+@import '../../../styles/common.css';
+
+.icon {
+  @mixin icomoon;
+
+  letter-spacing: 0;
+  text-decoration: none;
+  pointer-events: none;
+}

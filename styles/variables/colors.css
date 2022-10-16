@@ -1,0 +1,30 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Variables: Colors
+ *
+ * ----------------------------------------------------------------------------- */
+
+:root {
+  /* Black & White */
+  --color-white: rgb( 255, 255, 255 );
+  --color-black: rgb( 0, 0, 0 );
+
+  /* Body */
+  --color-gunmetal: #22303c;
+
+  /* Theme Colors */
+  --color-primary: rgb( 87, 39, 128 );               /* Eminence */
+  --color-secondary: rgb( 20, 25, 40 );              /* Midnight Express */
+  --color-tertiary: rgb( 150, 255, 245 );            /* Electric Blue */
+
+  /* Special Colors */
+  --color-amaranth: rgb( 233, 30, 99 );        /* #E91E63 */
+  --color-maroon-flush: rgb( 194, 24, 88 );    /* #C21858 */
+  --color-royal-health: rgb( 156, 39, 128 );   /* #9C2780 */
+  --color-eminence: rgb( 87, 39, 128 );        /* #572780 */
+  --color-bay-of-many: rgb( 39, 42, 128 );     /* #272A80 */
+  --color-calypso: rgb( 39, 104, 128 );        /* #276880 */
+  --color-havelock-blue: rgb( 87, 172, 220 );  /* #57ACDC */
+  --color-viking: rgb( 87, 220, 190 );         /* #57DCBE */
+  --color-emerald: rgb( 96, 198, 137 );        /* #60C689 */
+}

@@ -3,7 +3,13 @@
     "baseUrl": ".",
     "paths": {
       "@styles/*": [ "styles/*" ],
+      "@fonts/*": [ "public/fonts/*" ],
       "@atoms/*": [ "components/atoms/*" ],
+      "@molecules/*": [ "components/molecules/*" ],
+      "@organisms/*": [ "components/organisms/*" ],
+      "@pages/*": [ "components/pages/*" ],
+      "@templates/*": [ "components/templates/*" ],
+      "@hooks/*": [ "hooks/*" ]
     }
   }
 }

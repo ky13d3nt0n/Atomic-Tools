@@ -1,0 +1,98 @@
+/* -----------------------------------------------------------------------------
+ *
+ * Variables: Typography
+ *
+ * ----------------------------------------------------------------------------- */
+
+:root {
+  /* -----------------------------------------------------------------------------
+	 * Fonts
+	 * ----------------------------------------------------------------------------- */
+  --font-primary: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  --font-secondary: 'Lato', 'Arial', sans-serif;
+  --font-icon: 'icomoon';
+
+  /* -----------------------------------------------------------------------------
+	 * Links
+	 * ----------------------------------------------------------------------------- */
+  --link-color: var( --color-secondary );
+  --link-hover-color: var( --color-secondary );
+
+  /* -----------------------------------------------------------------------------
+   * General Typography
+   * ----------------------------------------------------------------------------- */
+
+  /* lead */
+  --lead-font-size: rem( 16px );
+  --lead-line-height: lh( 16px, 20px );
+
+  /* error */
+  --error-font-size: rem( 14px );
+  --error-line-height: lh( 14px, 18px );
+
+  /* -----------------------------------------------------------------------------
+	 * Headings
+	 * ----------------------------------------------------------------------------- */
+
+  /* h1 */
+  --h1-font-size: rem( 32px );
+  --h1-line-height: lh( 32px, 34px );
+
+  /* h1 pricepoint */
+  --h1-pricepoint-font-size: rem( 32px );
+  --h1-pricepoint-line-height: lh( 32px, 26px );
+
+  /* h2 */
+  --h2-font-size: rem( 30px );
+  --h2-line-height: lh( 30px, 34px );
+
+  /* h3 */
+  --h3-font-size: rem( 24px );
+  --h3-line-height: lh( 24px, 28px );
+
+  /* h4 */
+  --h4-font-size: rem( 20px );
+  --h4-line-height: lh( 20px, 24px );
+
+  /* h5 */
+  --h5-font-size: rem( 18px );
+  --h5-line-height: lh( 18px, 22px );
+
+  /* h6 */
+  --h6-font-size: rem( 16px );
+  --h6-line-height: lh( 16px, 20px );
+
+  @media (--large) {
+    /* -----------------------------------------------------------------------------
+		 * Headings
+		 * ----------------------------------------------------------------------------- */
+
+    /* h1 */
+    --h1-font-size: rem( 64px );
+    --h1-line-height: lh( 64px, 68px );
+
+    /* pricepoint h1 */
+    --h1-pricepoint-font-size: rem( 50px );
+    --h1-pricepoint-line-height: lh( 50px, 50px );
+
+    /* h2 */
+    --h2-font-size: rem( 56px );
+    --h2-line-height: lh( 56px, 60px );
+
+    /* h3 */
+    --h3-font-size: rem( 42px );
+    --h3-line-height: lh( 42px, 46px );
+
+    /* h4 */
+    --h4-font-size: rem( 30px );
+    --h4-line-height: lh( 30px, 34px );
+
+    /* h5 */
+    --h5-font-size: rem( 24px );
+    --h5-line-height: lh( 24px, 28px );
+
+    /* h6 */
+    --h6-font-size: rem( 18px );
+    --h6-line-height: lh( 18px, 22px );
+  }
+}

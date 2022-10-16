@@ -2,6 +2,7 @@
  * @module Row
  * @description
  */
+import useConditionalClasses from '@hooks/useConditionalClasses';
 import styles from './Row.module.css';
 
 /**
@@ -10,31 +11,32 @@ import styles from './Row.module.css';
  */
 const Row = ( {
   children,
-  className,
-  center = '',
-  noGutters = '',
-  noWrap = '',
-  pullRight = '',
-  spaceEvenly = '',
-  spaceAround = '',
-  spaceBetween = '',
-  matchHeight = '',
-  verticalCenter = ''
+  className = '',
+  matchHeight,
+  pullRight,
+  reorder2Col,
+  center, verticalCenter,
+  noGutters, noWrap,
+  spaceEvenly, spaceAround, spaceBetween,
+  fixedCol2, fixedCol3, fixedCol4, fixedCol5
  } ) => {
+  const classes = {
+    matchHeight,
+    pullRight,
+    reorder2Col,
+    center, verticalCenter,
+    noGutters, noWrap,
+    spaceEvenly, spaceAround, spaceBetween,
+    fixedCol2, fixedCol3, fixedCol4, fixedCol5
+  };
+  const modifierClasses = useConditionalClasses( styles, classes );
+
   return (
     <div
       className={ `
         ${ styles.row }
+        ${ modifierClasses }
         ${ className }
-        ${ center && styles.center }
-        ${ verticalCenter && styles.verticalCenter }
-        ${ noGutters && styles.noGutters }
-        ${ noWrap && styles.noWrap }
-        ${ pullRight && styles.pullRight }
-        ${ spaceEvenly && styles.spaceEvenly }
-        ${ spaceAround && styles.spaceAround }
-        ${ spaceBetween && styles.spaceBetween }
-        ${ matchHeight && styles.matchHeight }
       ` }
     >
       { children }

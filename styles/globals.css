@@ -7,8 +7,28 @@
  *
  * ----------------------------------------------------------------------------- */
 
-/* Utilities */
-@import 'utilities/all.css';
+/* Reset */
+@import 'reset/reset.css';
 
-/* Base */
-@import 'base/all.css';
+/* Mixins */
+@import 'mixins/icomoon.css';
+@import 'mixins/backgrounds.css';
+@import 'mixins/utilities.css';
+
+/* Core */
+@import 'core/reset.css';
+@import 'core/core.css';
+@import 'core/a11y.css';
+@import 'core/baseline.css';
+@import 'core/text.css';
+@import 'core/print.css';
+
+/* Media Queries */
+@import 'media-queries/media-queries.css';
+
+/* Variables */
+@import 'variables/colors.css';
+@import 'variables/grid.css';
+@import 'variables/icons.css';
+@import 'variables/spacers.css';
+@import 'variables/typography.css';

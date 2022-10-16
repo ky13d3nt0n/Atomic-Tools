@@ -2,7 +2,7 @@
  * @module PostCSS Config
  * @description Our config for PostCSS
  */
-const functions = require( './styles/utilities/functions/functions' );
+const functions = require( './styles/functions/functions' );
 
 module.exports = {
   plugins: {
@@ -24,7 +24,7 @@ module.exports = {
     'postcss-custom-media': {},
     'postcss-color-mod-function': {
       preserveCustomProps: true,
-      importFrom: './styles/utilities/variables/colors.css'
+      importFrom: './styles/variables/colors.css'
     }
   }
 };

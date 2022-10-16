@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 import '@styles/globals.css';
+import '@fonts/icomoon/style.css';
 
 /**
  * @function App
