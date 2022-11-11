@@ -15,7 +15,7 @@ import styles from './index.module.css';
 const Hero = ( {
   background = 'hero-1.jpg',
 } ) => (
-  <div className={ styles.hero } style={ { backgroundImage: `url( "/img/${ background }" );` }}>
+  <div className={ styles.hero } style={ { backgroundImage: `url( "/img/${ background }" )` }}>
     <Container>
       <em className={ styles.pretitle }>Hero Pretitle</em>
       <Heading

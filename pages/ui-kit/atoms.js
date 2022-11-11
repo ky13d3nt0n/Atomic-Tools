@@ -9,13 +9,7 @@ import Row from '@atoms/Structures/Row';
 import Column from '@atoms/Structures/Column';
 
 import Heading from '@atoms/Typography/Heading';
-import Icon from '@atoms/Typography/Icon';
-import Button from '@atoms/Button';
-import Divider from '@atoms/Divider';
-import UnorderedList from '@atoms/Lists/UnorderedList';
-import OrderedList from '@atoms/Lists/OrderedList';
-import DefinitionList from '@atoms/Lists/DefinitionList';
-import ListItem from '@atoms/Lists/ListItem';
+import Button from '@atoms/Inputs/Button';
 import styles from './layouts.module.css';
 
 /**
@@ -46,11 +40,6 @@ const Page = () => {
       </Container>
 
       <Container className={ styles.colorKey }>
-        <Heading level="1" className="text-line">Icons</Heading>
-        <Icon icon="icon-news" />
-      </Container>
-
-      <Container className={ styles.colorKey }>
         <Heading level="1" className="text-line">Buttons</Heading>
         <Button>Button Default</Button>
 
@@ -71,33 +60,6 @@ const Page = () => {
         <Button block>Button Block</Button>
         <Button block>Button Block</Button>
         <Button blockOnlySM>Button Block</Button>
-      </Container>
-
-      <Container className={ styles.colorKey }>
-        <Heading level="1" className="text-line">Dividers</Heading>
-        <Divider />
-      </Container>
-
-      <Container className={ styles.colorKey }>
-        <Heading level="1" className="text-line">Lists</Heading>
-
-        <UnorderedList>
-          <ListItem content="Item One" />
-          <ListItem content="Item Two" />
-          <ListItem content="Item Three" />
-        </UnorderedList>
-
-        <UnorderedList withIcons>
-          <ListItem content="Item One">
-            <UnorderedList>
-              <ListItem content="Item One" />
-              <ListItem content="Item Two" />
-              <ListItem content="Item Three" />
-            </UnorderedList>
-          </ListItem>
-          <ListItem content="Item Two" />
-          <ListItem content="Item Three" />
-        </UnorderedList>
       </Container>
     </>
   );
