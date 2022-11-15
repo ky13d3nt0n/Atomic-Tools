@@ -2,7 +2,7 @@
  * @module Menu
  * @description
  */
-import Navigation from '@atoms/Navigation';
+import Navigation from '@atoms/Regions/Navigation';
 import UnorderedList from '@molecules/Lists/UnorderedList';
 import styles from './index.module.css';
 

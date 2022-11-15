@@ -5,7 +5,7 @@
 import Container from '@atoms/Structures/Container';
 import Paragraph from '@atoms/Typography/Heading';
 import Heading from '@atoms/Typography/Heading';
-import Button from '@atoms/Button';
+import Button from '@atoms/Inputs/Button';
 import styles from './index.module.css';
 
 /**

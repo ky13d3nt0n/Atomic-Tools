@@ -2,7 +2,7 @@
  * @module Main
  * @description
  */
-import styles from './Main.module.css';
+import styles from './index.module.css';
 
 /**
  * @function Main

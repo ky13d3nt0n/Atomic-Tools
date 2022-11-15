@@ -7,7 +7,7 @@ import Row from '@atoms/Structures/Row';
 import Column from '@atoms/Structures/Column';
 import Paragraph from '@atoms/Typography/Heading';
 import Heading from '@atoms/Typography/Heading';
-import Button from '@atoms/Button';
+import Button from '@atoms/Inputs/Button';
 import useConditionalClasses from '@hooks/useConditionalClasses';
 import styles from './HeroSplit.module.css';
 

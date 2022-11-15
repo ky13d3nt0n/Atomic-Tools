@@ -4,7 +4,7 @@
  *
  * ----------------------------------------------------------------------------- */
 
-@value row, noGutters, reorder2Col, fixedCol2, fixedCol3, fixedCol4, fixedCol5 from './Row.module.css';
+@value row, noGutters, reorder2Col, fixedCol2, fixedCol3, fixedCol4, fixedCol5 from '../Row/index.module.css';
 
 .col {
   position: relative;
